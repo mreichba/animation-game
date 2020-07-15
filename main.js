@@ -29,7 +29,7 @@ hints.forEach(hintsOn);
 
 keys.forEach(key => key.addEventListener("transitionend", removeTransition));
 
-window.addEventListener("keydown", playNote);  
+window.addEventListener("keydown", playNote);
 
 const { Path, Point } = paper;
 
@@ -53,14 +53,14 @@ for (let i = 0; i <= segments; i++) {
 }
 
 path.onFrame = (e) => {
-	for (var i = 0; i <= segments; i++) {
+  for (var i = 0; i <= segments; i++) {
     let height = 10;
     let sinus = Math.sin(e.time * 3 + i);
-		path.segments[i].point.y = sinus * height + 25;
+    path.segments[i].point.y = sinus * height + 25;
     path.smooth({
       type: 'continuous'
     });
-	}
+  }
 }
 
 paper.view.draw();
