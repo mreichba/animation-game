@@ -243,7 +243,7 @@ h1 {
   font-weight: 400;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  margin: 0;
+  margin: 20px auto 0;
 }
 
 h2 {
@@ -260,13 +260,13 @@ h2 {
   color: #eee;
   text-shadow: 0 0 5rem #028ae9;
   transition: all .07s ease;
-  min-height: 120px;
+  min-height: 80px;
 }
 
 .keys {
   display: block;
   width: 100%;
-  height: 350px;
+  height: 250px;
   max-width: 880px;
   position: relative;
   margin: 0px auto 30px;
