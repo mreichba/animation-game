@@ -166,6 +166,10 @@ canvas {
   margin: 0 auto 0;
   
 }
+
+#wrap {
+  height: 20vh;
+}
 h1{
   /* position: absolute;
   left: 50%;
@@ -251,7 +255,7 @@ h2 {
 }
 
 .nowplaying {
-  font-size: 120px;
+  font-size: 80px;
   line-height: 1;
   color: #eee;
   text-shadow: 0 0 5rem #028ae9;
